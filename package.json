@@ -1,0 +1,35 @@
+{
+  "name": "placeholer",
+  "version": "1.0.0",
+  "description": "placeholder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint ./ test --ext .js --ext .md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyfo/placeholder.git"
+  },
+  "keywords": [
+    "lnd"
+  ],
+  "author": "Mikolaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oyfo/placeholder/issues"
+  },
+  "homepage": "https://github.com/oyfo/placeholder#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.3",
+    "eslint-plugin-mocha": "^4.8.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+  }
+}
